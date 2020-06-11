@@ -16,7 +16,7 @@ class MyTest3(unittest.TestCase):
     def test_skip_unless(self):
         print("test ccc")
     
-    @unittest.expectedFailure # 直接预期失败
+    @unittest.expectedFailure # 无论用例部分代码如何，直接预期失败
     def test_expected_failure(self):
         self.assertEqual(2, 3)
 
