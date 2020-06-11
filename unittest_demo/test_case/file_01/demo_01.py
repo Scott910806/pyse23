@@ -1,5 +1,5 @@
 '''
-python导包，demo_01.py中引用的test_base.py文件，与demo_o1.py的上一级目录平级，需将
+python导包，demo_01.py中引用的test_base.py文件，与demo_o1.py的上一级目录平级需要将
 test_base.py所在的路径添加到系统环境变量，才可被正常引用
 '''
 import sys
