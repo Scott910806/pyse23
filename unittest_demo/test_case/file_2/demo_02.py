@@ -40,6 +40,6 @@ if __name__ == "__main__":
     suit.addTest(MyTest2("test_case1"))
     suit.addTest(MyTest2("test_case2"))
     
-    # 创建test runner，执行suit
+    # 创建test runner，执行suit 
     runner = unittest.TextTestRunner()
     runner.run(suit)
