@@ -4,7 +4,7 @@ import unittest
 from time import sleep
 from selenium import webdriver
 
-# 模块化：将公用部分抽象为方法以供调用
+# 模块化：将公用部分抽象为方法以供调用，可以保存在单独的文件中
 def baidu_search(dr, keyword):
     dr.find_element_by_css_selector("input#kw").send_keys(keyword)
     dr.find_element_by_css_selector("input#su").click()
