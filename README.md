@@ -8,4 +8,7 @@ python+selenium practice project
 * 数据驱动
 * 参数化
 ## unittest
-*
+* test fixture
+* test case
+* test suit
+* test runner
