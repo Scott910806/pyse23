@@ -47,7 +47,7 @@ class TestDdt_02(unittest.TestCase):
     @data(
         {"search_word":"selenium","result_title":"selenium_百度搜索"},
         {"search_word":"unittest","result_title":"unittest_百度搜索"},
-        {"search_word":"python","result_title":"python_百度搜索"}
+        {"search_word":"python","result_title":"python_百度搜索sss"}
         )
     @unpack
     def test_ddt_example_04(self, search_word, result_title): # 函数的参数名必须与dict中的key相同
