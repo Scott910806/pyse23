@@ -13,5 +13,5 @@ suit = unittest.defaultTestLoader.discover(
 # 用时间戳区分测试报告
 current_time = time.strftime("%Y_%m_%d_%H_%M_%S")
 with open('./test_reports/'+current_time+' result.html','wb') as f:
-    runner = HTMLTestRunner(stream=f, title='parameterized', description='automation test project')
-    runner.run(suit, rerun=1, save_last_run=False)
+    runner = HTMLTestRunner(stream=f,title='parameterized', description='automation test project')
+    runner.run(suit, rerun=0, save_last_run=False)
