@@ -12,3 +12,7 @@ python+selenium practice project
 * test case
 * test suit
 * test runner
+## unittest_extend
+* parameterized
+* ddt
+* HTMLTestRunner&Email
