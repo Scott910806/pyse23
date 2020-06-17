@@ -1,0 +1,10 @@
+{
+    "case1":{
+        "search_word":"selenium",
+        "result_title":"selenium_百度搜索"
+    },
+    "case2":{
+        "search_word":"unittest",
+        "result_title":"selenium_百度搜索"
+    }
+}
