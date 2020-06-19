@@ -16,3 +16,5 @@ python+selenium practice project
 * parameterized
 * ddt
 * HTMLTestRunner&Email
+* seldom 封装了selenium、unittest、parameterized的框架
+* poium 实现了Page Object 模式的框架
